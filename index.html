@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - MyDashboard</title>
+</head>
+<body>
+    
+    <!--Navigation bar-->
+    <nav>
+        <div id="logo">MyDashboard</div>
+        <div id="buttons">
+            <select name="select-language" id="select-language"onChange="location = this.options[this.selectedIndex].value;">
+                <option value="#" selected>English</option>
+                <option value="file:///media/fuse/crostini_38ce58e171aa223edab85ecdd5f3af28019a8963_termina_penguin/MyDashboard/fr/index.html">French</option>
+                <option value="#">German</option>
+                <option value="#">Spanish</option>
+            </select>
+            <button id="register"><a href="connection/register.html">Create and account</a></button>
+            <button id="login"><a href="connection/login.html">Login</a></button>
+        </div>
+    </nav>
+    <!--End of navigation bar-->
+
+    <!--Header-->
+    <header>
+        <div id="header-quote">“Better three hours too soon than one minute too late.”</div>
+    </header>
+    <!--End of header-->
+
+    <!--Benefits-->
+    <section id="benefits">
+        <span id="title">Why choose us ?</span>
+        <div class="arguments-line">
+            <div class="argument">
+                <img src="img/clock.svg">Because organisation is time and all need time. With this website you can organize your time
+            </div>
+            <div class="argument">
+                <img src="img/world.svg">Because with your time you can improve the world and the world need you.
+            </div>
+            <div class="argument">
+                <img src="img/dashboard.svg">Because a good and modern dashboard is good for optimize your web experience. 
+            </div>
+        </div><br>
+        <div class="arguments-line">
+            <div class="argument">
+                <img src="img/html.svg">Because we are totlay open source and it is essential 
+            </div>
+            <div class="argument">
+                <img src="img/mail.svg">Because you can contact us easily with just send an email.
+            </div>
+            <div class="argument">
+                <img src="img/dollar.svg">Because we are totlay free and it is essential 
+            </div>
+        </div>
+    </section>
+    <!--End of benefits-->
+
+    <!--Values-->
+    <section id="values">
+        <div id="checklist">
+           <div class="checkline">
+               <img src="img/check.svg">  Totaly free and open source
+           </div>
+            <div class="checkline">
+                <img src="img/check.svg">  Easy to make modifications
+            </div>
+            <div class="checkline">
+                <img src="img/check.svg">  With a modern style
+            </div>
+            <div class="checkline">
+                <img src="check.svg">  Easy to use
+            </div>
+            <div class="checkline">
+                <img src="img/check.svg">  Easy to report a bug
+            </div>
+            <div class="checkline">
+                <img src="img/check.svg">  Good for work
+            </div>
+            <div class="checkline">
+                <img src="img/check.svg">  Good for free time too
+            </div>
+            <div class="checkline">
+                <img src="img/check.svg">  Easy access to your apps
+            </div>
+        </div>
+        <form action="#" id="register-form">
+            <input id="text" type="text" placeholder="Email adress">
+            <input id="button" type="button" value="Suscribe to the mewsletter">
+        </form>
+    </section>
+    <!--End of values-->
+
+    <!--FAQ-->
+    <section id="faq">
+        <span id="h1">Frequently asked question (FAQ):</span>
+        <div class="question">
+            Why we need to give our email adress ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            How to add an app ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            Is this website a virus ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            Need we to enter a phone number ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            How to propose an update ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            How log out ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+        <div class="question">
+            How delete our account ?
+            <a href="#"><img src="img/all_view.svg"></a>
+        </div>
+        <div class="line"></div>
+    </section>
+
+    <!--Contact form-->
+    <div id="contact-form">
+        <form action="#">
+            <div id="h1">Contact</div>
+            First name
+            <input type="text" placeholder="John">
+            Last name
+            <input type="text" placeholder="Smith">
+            Email
+            <input type="text" placeholder="john.smith@example.com">
+            Message
+            <textarea placeholder="I write you for ..."></textarea>
+            <button>Send email</button>
+        </form>
+    </div>
+    <!--End of contact form-->
+
+    <!--Footer-->
+    <footer>
+        <ul class="footer-collum">
+            <li><a href="">Security policy</a></li>
+            <li><a href="">User manual</a></li>
+            <li><a href="">View source</a></li>
+        </ul>
+        <ul class="footer-collum">
+            <li><a href="">Register</a></li>
+            <li><a href="">Log in</a></li>
+            <li><a href="">About us</a></li>
+        </ul>
+        <ul class="footer-collum">
+            <li><a href="">Contact</a></li>
+            <li><a href="">Report a bug</a></li>
+            <li><a href="">Propose an uptate</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
